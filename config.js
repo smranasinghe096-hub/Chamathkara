@@ -4,7 +4,7 @@ module.exports = {
   TOKEN: "",
   language: "en",
   ownerID: ["1004206704994566164", ""], 
-  mongodbUri : "",
+  mongodbUri : "mongodb+srv://sath:<db_password>@sath.jhsazda.mongodb.net/?retryWrites=true&w=majority&appName=sath",
   spotifyClientId : "",
   spotifyClientSecret : "",
   setupFilePath: './commands/setup.json',
@@ -17,8 +17,8 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      name: "GlaceYT",
-      password: "glace",
+      name: "Chamathkara",
+      password: "sath",
       host: "5.39.63.207",
       port:  8262,
       secure: false
